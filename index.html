@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Фотограф</title>
+    <style>
+        .menu {
+            color: rgba(96, 96, 97, 0.747);
+            text-decoration: none;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+        }
+
+        a.menu:hover {
+            text-decoration: underline;
+        }
+
+        #first_word {
+            color: black;
+        }
+
+        h1 {
+            font-family: roboto, arial, sans-serif;
+            font-size: 72px;
+            font-weight: bold;
+        }
+
+        div {
+            font-family: roboto, arial, sans-serif;
+            font-size: 24px;
+
+        }
+
+        img {
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+        }
+
+        .flexcontainer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-content: flex-end;
+
+
+
+        }
+
+        .flexcontainer2 {
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 0px;
+
+        }
+
+        .flexcontainer3 {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            line-height: 0px;
+        }
+
+        .language {
+
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            transform: rotate(-90deg);
+        }
+
+        img {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="menu" id="first_word" href="about.html">Home</a>
+            <a class="menu" href="about.html">About me</a>
+            <a class="menu" href="about.html">Portfolio</a>
+            <a class="menu" href="about.html">Skills</a>
+            <a class="menu" href="about.html">Contacts</a>
+        </nav>
+        <hr>
+    </header>
+    <div class="flexcontainer">
+        <div class="flexcontainer2">
+            <h1>Maria</h1>
+            <h1>Anikina</h1>
+        </div>
+        <div class="flexcontainer3">
+            <p>UX|UI disainer</p>
+            <p>35 years old, Novosibirsk</p>
+        </div>
+        <p class="language">RU | ENG</p>
+    </div>
+    <img src="img/mary2.JPG">
+</body>
+
+</html>
